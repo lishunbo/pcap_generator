@@ -9,7 +9,7 @@ set_target_properties(
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/libpcap-1.10.4)
 
-add_executable(GeneratePcap main.cc)
+add_executable(GeneratePcap main.cc helper.cc)
 target_link_libraries(GeneratePcap libpcap)
 target_compile_features(GeneratePcap PUBLIC cxx_std_17)
 # target_compile_definitions(${TARGETEXEC} PUBLIC ENABLE_AUDIO ENABLE_VIDEO)

@@ -1,2 +1,5 @@
 build/
 .vscode
+streams/
+*.pcap
+libpcap-1.10.4/
