@@ -20,7 +20,7 @@
 ```bash
 tar xf libpcap-1.10.4.tar.gz
 cd libpcap-1.10.4
-./configure ./configure --disable-shared --disable-netmap --disable-bluetooth --disable-dbus --disable-rdma
+./configure --disable-shared --disable-netmap --disable-bluetooth --disable-dbus --disable-rdma
 make -j12
 cd ..
 cmake -S . -B build
